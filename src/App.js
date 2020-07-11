@@ -8,7 +8,7 @@ import WelcomeScreen from './pages/welcome-screen/WelcomeScreen';
 export default () => {
     return (
         <div className="ui container">
-            <h1 className="ui header center aligned">App</h1>
+            <h1 className="ui header center aligned">Application</h1>
             <Router>
                 <Route path="/test" exact component={TestPage} />
                 <Route path="/" exact component={WelcomeScreen} />
