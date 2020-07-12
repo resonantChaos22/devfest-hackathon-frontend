@@ -1,0 +1,19 @@
+
+
+.segment{
+    height:70vh;
+    width:60%;
+    padding:0px;
+    background-color: black !important;
+    
+}
+.alignbar{
+    padding-top:20px;
+    position:sticky;
+    width:20%;
+
+}
+
+.button.ui.button{
+    margin-left: 110px;;
+}

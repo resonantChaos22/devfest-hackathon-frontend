@@ -1,0 +1,11 @@
+
+
+.align{
+    position: absolute;
+    top: 30%;
+    right:20%;
+    box-sizing: border-box;
+    height:300px;
+    width:200px;
+    height:'40vh' !important;
+}

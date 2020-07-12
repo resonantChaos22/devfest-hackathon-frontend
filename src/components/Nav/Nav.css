@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+  
+height: 15vh;
+color: white;
+background-color: #494d5f;
+font-size: 24px;
+padding:10px;
+}
+nav ul{
+display:flex;
+align-items: center;
+justify-content:flex-start;
+}
+
+nav ul li{
+    text-decoration:none;
+    list-style: none;
+    color:white;
+    height:40%;
+    width:200%;
+    padding:1em;
+    padding-left:4em;
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+.logout{
+    display:flex;
+    justify-content: flex-end;
+}
+.logoimg{
+    background-image: url(../Photos/health\ buddy.svg);;
+    height:100px;
+    
+   
+    background-repeat: no-repeat;
+}
