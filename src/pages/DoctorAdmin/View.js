@@ -16,26 +16,22 @@ class View extends React.Component {
         return (
             <div>
                 <NavBar />
-                <div className="ui grid">
+                < div className="ui grid">
                     <div className=" two wide column">
                         <SidebarExampleTransitions />
                     </div>
-                    <div class="ui segment  fourteen wide column">
-                        <div className="ui grid">
+                    <div className="fourteen wide column">
+                    <div class="ui segment style={{width:'100%'}}">
                             <img class="ui small left floated image" src={faker.image.avatar()}>
                             </img>
                             <p>{this.state.name}</p>
                             <p>{this.state.address} lorem100vdjbhjgvhfvbhjknkhgvhcvjhbknlnjkhvjgchgvhjbknlhgvjb m,mjhugvjb nm,kjuygvbnjuyughvbnjuytugfhvbnmkjuyiturydgxcvbnuytrydfcvhbnjuytuyfhgvbnjkiuyitufhcvnbnjuygh</p>
                         </div>
-                        <br>
-                        </br>
-                        <br />
-                        <div className="ui container">
-                            defrgtfhjmhngfd
-</div>
-                    </div>
-                    
-                </div>
+                        
+                        
+                        </div>
+                    </ div>
+        
             </div>);
     }
 }
