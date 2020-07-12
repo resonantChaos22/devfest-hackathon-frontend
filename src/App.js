@@ -12,11 +12,8 @@ export default () => {
         <div >
             
             <Router>
-               
                 <Route path="/test" exact component={TestPage} />
-               
-                
-                   
+                <Route path="/" exact component={WelcomeScreen} />      
             </Router>
         </div>
     );
