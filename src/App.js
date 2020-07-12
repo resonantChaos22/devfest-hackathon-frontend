@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
+import Preloader from './components/Preloader/Preloader';
 import "semantic-ui-css/semantic.min.css";
 import './App.css';
 
@@ -12,7 +12,7 @@ export default () => {
         <div >
             
             <Router>
-               
+               <Preloader />
                 <Route path="/test" exact component={TestPage} />
                
                 
